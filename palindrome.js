@@ -12,10 +12,10 @@ function palindrome(str) {
 	newStr = newStr.toLowerCase();
 	
 	// Split the string into an array
-	var splitString = newStr.split("");
+	var splitArray = newStr.split("");
 	
 	// Reverse the array
-	var reverseArray = splitString.reverse();
+	var reverseArray = splitArray.reverse();
 	
 	// Join all elements in array to a string
 	var joinArray = reverseArray.join("");
